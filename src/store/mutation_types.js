@@ -1,0 +1,6 @@
+export const EMAIL = 'EMAIL'
+export const PASSWORD = 'PASSWORD'
+export const STATUS_MESSAGE = 'STATUS_MESSAGE'
+export const IS_AUTH = 'IS_AUTH'
+export const AUTH_CODE = 'AUTH_CODE'
+export const SUCCESS_STATE = 'SUCCESS_STATE'

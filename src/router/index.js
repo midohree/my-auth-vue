@@ -11,6 +11,16 @@ const routes = [
     component: Home
   },
   {
+    path: '/reset-password/request',
+    name: 'RequestAuthCode',
+    component: () => import(/* webpackChunkName: "about" */ '../views/RequestAuthCode.vue')
+  },
+  {
+    path: '/reset-password/verify',
+    name: 'VerifyAuthCode',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VerifyAuthToken.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
